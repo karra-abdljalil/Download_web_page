@@ -1,0 +1,231 @@
+
+/* General stuf  */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+:root {
+    --Dark-Grayish-Blue: hsl(210, 10%, 33%);
+    --Grayish-Blue: hsl(201, 11%, 66%);
+    --Strong-Cyan: hsl(171, 66%, 44%);
+    --Light-Blue: hsl(233, 100%, 69%);
+}
+
+main {
+    width: 100%;
+    /* height: 100vh;
+     */
+   
+}
+
+.header {
+    width: 100%;
+    /* height: 20%; */
+    position: relative;
+} 
+.bg-header {
+    width: 100%;
+    
+}
+
+.logo {
+    position: absolute; 
+    left: 45%;
+    top: 20%;
+    margin-bottom: -20px;
+}
+
+ 
+.content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+    padding-bottom: 150px;
+    gap: 20px;
+}
+ 
+
+.text h2 {
+    font-size: 40px;
+     
+    color: var(--Dark-Grayish-Blue);
+
+}
+
+
+.text p {
+    padding-top: 10px;
+    font-weight: 400;   
+     color: var(--Grayish-Blue);
+
+}
+
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -100px; 
+}
+
+.col-1 {
+    position: relative;
+    flex-basis: 60%;
+}
+
+.col-2 {
+    flex-basis: 40%;
+    position: relative;
+}
+
+.col-1 img {
+    width: 90%;
+    transform: translateX(-70px);
+}
+
+.col-2 .content {
+    display: block;
+}
+
+.btn-ios , .btn-mac {
+    color: white;
+    width: 175px;
+    height: 40px;
+    border-radius: 20px;
+    outline: none;
+    border-style: none;
+    cursor: pointer;
+}
+
+.btn-ios {
+    margin-top: 20px;
+    margin-right: 20px;
+    background-color: var(--Strong-Cyan);
+}
+.btn-mac {
+    background-color: var(--Light-Blue);
+}
+
+#keep-track {
+    padding:20px;
+    margin-top: -30px;
+}
+
+.content {
+    padding-top: 20px;
+}
+
+.content .form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 297px;
+     
+}
+.col-2 .content .text h2 {
+    font-size: 20px;
+    text-align: left;
+     
+}
+
+.col-2 .content .text p {
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: left;
+    margin-bottom: 35px;
+
+
+}
+ 
+
+#access img {
+    width: 100%;
+    margin-top: 80px;
+}
+
+#Surcherge {
+    padding:20px;
+    margin-top: -30px;
+}
+
+ 
+#Surcherge .content .form  h2 {
+    margin-bottom: 20px;
+    font-size: 17px;
+}
+#Surcherge .content .form p {
+    line-height: 1.7;
+    /* text-align: center; */
+    font-size: 13px;
+}
+#Surcherge .content .form img {
+    padding: 33px; 
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(5,100px);
+    gap: 150px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+
+.footer-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background-color:  #f5f6f8;;
+}
+
+.col-3 {
+    flex-basis: 60%;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 50px;
+   
+}
+
+.col-3  .footer-text img {
+    width: 30%;
+    margin-left: 80px;
+    /* margin-bottom: 51px; */
+    margin-top: -5px;
+   
+}
+ 
+.col-3 .footer-text  h2 {
+    font-size: 15px;
+    color: #919598;
+    line-height: 1.7;
+}
+.col-3 .footer-text  h2:hover {
+    color: var(--Light-Blue);
+}
+
+
+.col-4 {
+    flex-basis: 40%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col-4 img {
+    margin-left: 15px;
+}
+
